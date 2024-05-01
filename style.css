@@ -1,0 +1,198 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar h1 {
+  background: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #ffa500 16.6%,
+    #ffff00 33.3%,
+    #008000 50%,
+    #0000ff 66.6%,
+    #800080 83.3%,
+    #ff0000 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.links a:first-child {
+  margin-left: 0;
+}
+
+.links a:hover {
+  text-decoration: dashed;
+  color: #ffa500;
+  transition: color 0.3s ease-in-out;
+}
+
+.section-1 p {
+  background: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #ffa500 16.6%,
+    #ff0d00 33.3%,
+    #008000 50%,
+    #0000ff 66.6%,
+    #800080 83.3%,
+    #ff0000 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-2 {
+  display: flex;
+}
+
+.foto-lampa {
+  width: 400px;
+  height: 300px;
+  border: 4px solid black;
+  overflow: hidden;
+}
+.foto1 {
+  width: 350;
+  height: 300px;
+}
+
+.qutu {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.qutu td {
+  border: 5px solid rgb(21, 207, 1);
+  align-items: center;
+}
+.yt-video {
+  padding: 0 0;
+}
+
+/* BUTTON  */
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 151, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn:before,
+.btn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn:before {
+  height: 0%;
+  width: 2px;
+}
+.btn:after {
+  width: 0%;
+  height: 2px;
+}
+.btn:hover {
+  color: rgba(251, 75, 2, 1);
+  background: transparent;
+}
+.btn:hover:before {
+  height: 100%;
+}
+.btn:hover:after {
+  width: 100%;
+}
+.btn span:before,
+.btn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251, 75, 2, 1);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn span:hover:before {
+  height: 100%;
+}
+.btn span:hover:after {
+  width: 100%;
+}
+
+.table2 {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 34px;
+}
+
+.table2 th,
+.table2 td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table2 th {
+  background-color: #f2f2f2;
+}
